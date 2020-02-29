@@ -1,3 +1,9 @@
+This implements a scrolling div that has an animated 'scroll down' icon implemented in two ways, one with framer-motion library and one without.  
+
+The layout is re-created from my personal website.  In order to narrow down the problem, I kept almost all components inside a single file (this is not a typical structure for a React App, or for my personal projects).  
+
+Clone this repo, npm install, and then run a dev server.  Comment out the <ScrollDownIconNoFramer /> (line 300) component and comment in the <ScrollDownIconFramer />( line 299 ) component inside App.js to see the glitch.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
