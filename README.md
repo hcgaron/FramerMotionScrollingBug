@@ -1,4 +1,4 @@
-This implements a scrolling div that has an animated 'scroll down' icon implemented in two ways, one with framer-motion library and one without.  
+This implements a scrolling div that has an animated 'scroll down' icon implemented in two ways, one with framer-motion library and one without.  When Framer Motion is used, there are glitches in mobile webkit browsers when the 'rubberband' scroll kicks in.  The more framer components that are rendered / nested within the scrollable div (or if the div itself is a motion.div) the worse the glitches.  Try scrolling beyond the limits of the content repeatedly to see the glitch appear.
 
 The layout is re-created from my personal website.  In order to narrow down the problem, I kept almost all components inside a single file (this is not a typical structure for a React App, or for my personal projects).  
 
